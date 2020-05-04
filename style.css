@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.showcase{
+    height: 48.1vw;
+    padding-left: 2%;
+    background: #33475B;
+    color: white;
+    padding-top: 10%;
+}
+
+.showcaseImg{
+    width: 18vw;
+    height: 18vw;
+    background: url('./assest/lp-education.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 30%;
+    margin-bottom: -10%;
+}
+
+.showcaseDetails h1{
+    font-size: 32px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.showcaseDetails p{
+    font-size: 16px;
+    font-weight: 500;
+    width: 57%;
+    text-align: center;
+    margin-left: 22%;
+    margin-top: 2%;
+}
+
+.showcaseDetails button{
+    margin-left: 40%;
+    margin-top: 3%;
+    background: #FF7A59;
+    border: 0;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.tool{
+    height: 48.1vw;
+    padding-left: 2%;
+    background: #2096C3;
+    color: white;
+    padding-top: 17%;
+}
+
+.toolImg{
+    width: 18vw;
+    height: 18vw;
+    background: url('./assest/lp-tool.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 30%;
+    margin-bottom: -5%;
+}
+
+.toolDetails{
+    margin-bottom: -20%;
+}
+
+.toolDetails h1{
+    font-size: 32px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: -10%;
+}
+
+.toolDetails p{
+    font-size: 16px;
+    font-weight: 500;
+    width: 55%;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 2%;
+
+}
+
+.toolDetails button{
+    margin-left: 40%;
+    margin-top: 2%;
+    background: white;
+    border: 0;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.selector{
+    margin-top: -12%;
+}
+
+#select{
+    margin-left: 70%;
+    border-radius: 20px;
+    padding: 10px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding-right: 30px;
+    padding-left: 40px;
+}
+
+.selector{
+    position: relative;
+}
+
+.selector::before{
+    position: absolute;
+    content: '';
+    width: 1.4vw;
+    height: 1.4vw;
+    background: url('./assest/maps-and-flags.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    margin-left: 72%;
+    margin-top: 1.9%;
+}
+
+option{
+    color: black;
+}
